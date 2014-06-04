@@ -25,6 +25,9 @@
 		0E0C364B193E48C100BF0592 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0C3626193E48C100BF0592 /* CoreData.framework */; };
 		0E0C3653193E48C100BF0592 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C3651193E48C100BF0592 /* InfoPlist.strings */; };
 		0E0C3655193E48C100BF0592 /* LostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C3654193E48C100BF0592 /* LostTests.m */; };
+		0E0C365F193E498A00BF0592 /* lost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C365E193E498A00BF0592 /* lost.plist */; };
+		0E0C3665193E71C900BF0592 /* LostCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C3664193E71C900BF0592 /* LostCharacter.m */; };
+		0E0C3668193E739500BF0592 /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C3667193E739500BF0592 /* AddCharacterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,11 @@
 		0E0C3650193E48C100BF0592 /* LostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LostTests-Info.plist"; sourceTree = "<group>"; };
 		0E0C3652193E48C100BF0592 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E0C3654193E48C100BF0592 /* LostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostTests.m; sourceTree = "<group>"; };
+		0E0C365E193E498A00BF0592 /* lost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lost.plist; sourceTree = "<group>"; };
+		0E0C3663193E71C900BF0592 /* LostCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacter.h; sourceTree = "<group>"; };
+		0E0C3664193E71C900BF0592 /* LostCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacter.m; sourceTree = "<group>"; };
+		0E0C3666193E739500BF0592 /* AddCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCharacterViewController.h; sourceTree = "<group>"; };
+		0E0C3667193E739500BF0592 /* AddCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCharacterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,10 @@
 				0E0C3631193E48C100BF0592 /* AppDelegate.h */,
 				0E0C3632193E48C100BF0592 /* AppDelegate.m */,
 				0E0C3634193E48C100BF0592 /* Main.storyboard */,
+				0E0C3666193E739500BF0592 /* AddCharacterViewController.h */,
+				0E0C3667193E739500BF0592 /* AddCharacterViewController.m */,
+				0E0C3663193E71C900BF0592 /* LostCharacter.h */,
+				0E0C3664193E71C900BF0592 /* LostCharacter.m */,
 				0E0C363A193E48C100BF0592 /* MasterViewController.h */,
 				0E0C363B193E48C100BF0592 /* MasterViewController.m */,
 				0E0C363D193E48C100BF0592 /* DetailViewController.h */,
@@ -140,6 +152,7 @@
 		0E0C3629193E48C100BF0592 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E0C365E193E498A00BF0592 /* lost.plist */,
 				0E0C362A193E48C100BF0592 /* Lost-Info.plist */,
 				0E0C362B193E48C100BF0592 /* InfoPlist.strings */,
 				0E0C362E193E48C100BF0592 /* main.m */,
@@ -244,6 +257,7 @@
 			files = (
 				0E0C3641193E48C100BF0592 /* Images.xcassets in Resources */,
 				0E0C362D193E48C100BF0592 /* InfoPlist.strings in Resources */,
+				0E0C365F193E498A00BF0592 /* lost.plist in Resources */,
 				0E0C3636193E48C100BF0592 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,10 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0C363F193E48C100BF0592 /* DetailViewController.m in Sources */,
+				0E0C3665193E71C900BF0592 /* LostCharacter.m in Sources */,
 				0E0C363C193E48C100BF0592 /* MasterViewController.m in Sources */,
 				0E0C3633193E48C100BF0592 /* AppDelegate.m in Sources */,
 				0E0C3639193E48C100BF0592 /* Lost.xcdatamodeld in Sources */,
 				0E0C362F193E48C100BF0592 /* main.m in Sources */,
+				0E0C3668193E739500BF0592 /* AddCharacterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
