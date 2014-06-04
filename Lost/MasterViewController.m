@@ -1,6 +1,7 @@
 
 #import "MasterViewController.h"
 #import "AddCharacterViewController.h"
+#import "CharacterTableViewCell.h"
 
 
 @interface MasterViewController() <UITableViewDataSource>
@@ -29,10 +30,19 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    CharacterTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     NSManagedObject *character = [self.allCharacters objectAtIndex:indexPath.row];
-    cell.textLabel.text = [character valueForKey:@"actor"];
-    cell.detailTextLabel.text = [character valueForKey:@"passenger"];
+
+    cell.actorLabel.text = [character valueForKey:@"actor"];
+    cell.characterLabel.text = [character valueForKey:@"passenger"];
+    cell.eyeColorLabel.text = [character valueForKey:@"eyeColor"];
+    cell.hairColorLabel.text = [character valueForKey:@"hairColor"];
+    cell.seatNumLabel.text = [character valueForKey:@"seatNum"];
+
+    NSString *age = [NSString stringWithFormat:@"%@", [character valueForKey:@"age"]];
+    cell.ageLabel.text = age;
+    NSString *passNum = [NSString stringWithFormat:@"%@", [character valueForKey:@"passengerNum"]];
+    cell.passengerNumLabel.text = passNum;
 
     return cell;
 }

@@ -28,6 +28,7 @@
 		0E0C365F193E498A00BF0592 /* lost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C365E193E498A00BF0592 /* lost.plist */; };
 		0E0C3665193E71C900BF0592 /* LostCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C3664193E71C900BF0592 /* LostCharacter.m */; };
 		0E0C3668193E739500BF0592 /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C3667193E739500BF0592 /* AddCharacterViewController.m */; };
+		0E0C366B193EB41700BF0592 /* CharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C366A193EB41700BF0592 /* CharacterTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		0E0C3664193E71C900BF0592 /* LostCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacter.m; sourceTree = "<group>"; };
 		0E0C3666193E739500BF0592 /* AddCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCharacterViewController.h; sourceTree = "<group>"; };
 		0E0C3667193E739500BF0592 /* AddCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCharacterViewController.m; sourceTree = "<group>"; };
+		0E0C3669193EB41700BF0592 /* CharacterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewCell.h; sourceTree = "<group>"; };
+		0E0C366A193EB41700BF0592 /* CharacterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				0E0C3631193E48C100BF0592 /* AppDelegate.h */,
 				0E0C3632193E48C100BF0592 /* AppDelegate.m */,
 				0E0C3634193E48C100BF0592 /* Main.storyboard */,
+				0E0C3669193EB41700BF0592 /* CharacterTableViewCell.h */,
+				0E0C366A193EB41700BF0592 /* CharacterTableViewCell.m */,
 				0E0C3666193E739500BF0592 /* AddCharacterViewController.h */,
 				0E0C3667193E739500BF0592 /* AddCharacterViewController.m */,
 				0E0C3663193E71C900BF0592 /* LostCharacter.h */,
@@ -280,6 +285,7 @@
 				0E0C363F193E48C100BF0592 /* DetailViewController.m in Sources */,
 				0E0C3665193E71C900BF0592 /* LostCharacter.m in Sources */,
 				0E0C363C193E48C100BF0592 /* MasterViewController.m in Sources */,
+				0E0C366B193EB41700BF0592 /* CharacterTableViewCell.m in Sources */,
 				0E0C3633193E48C100BF0592 /* AppDelegate.m in Sources */,
 				0E0C3639193E48C100BF0592 /* Lost.xcdatamodeld in Sources */,
 				0E0C362F193E48C100BF0592 /* main.m in Sources */,
